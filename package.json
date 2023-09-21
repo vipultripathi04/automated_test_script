@@ -1,0 +1,16 @@
+{
+  "name": "test_assignment",
+  "version": "1.0.0",
+  "description": "Automated testing script for deep thought",
+  "main": "index.js",
+  "scripts": {
+    "test_chrome": "npx testcafe chrome index.js",
+    "test_firefox": "npx testcafe firefox index.js"
+
+  },
+  "author": "vipul",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^3.3.0"
+  }
+}
